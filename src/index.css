@@ -553,8 +553,19 @@ p { margin: 0 0 16px; color: var(--color-text); }
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden; /* add this */
 }
 .map-placeholder svg { width: 46px; height: 46px; color: var(--color-primary); }
+
+/* add this block */
+.map-placeholder iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .map-address {
   padding: 20px 22px;
   border-top: 1px solid var(--color-border);

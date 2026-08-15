@@ -25,7 +25,7 @@ export default function About() {
         <div className="container split">
           <Reveal className="img-frame">
             <img
-              src="https://placehold.co/800x680/1F5D42/F7F8F4?text=Our+Team+On+Site"
+              src="/src/asset/10.jpeg"
               alt="TreeCare Puchong team assessing a tree on a residential property"
               loading="lazy"
               width="800"

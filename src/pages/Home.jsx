@@ -10,6 +10,7 @@ import {
   CheckIcon, WhatsappIcon, ShieldIcon, PeopleIcon, ToolboxIcon,
   LocationIcon, ClockIcon, HouseShieldIcon, StarIcon, PhoneIcon,
 } from '../data/icons.jsx';
+import MapEmbed from '../components/MapEmbed.jsx';
 
 export default function Home() {
   return (
@@ -241,7 +242,7 @@ export default function Home() {
           </Reveal>
           <Reveal className="map-card">
             <div className="map-placeholder">
-              <LocationIcon />
+              <MapEmbed />
             </div>
             <div className="map-address">
               <LocationIcon />

@@ -4,6 +4,7 @@ import Reveal from '../components/Reveal.jsx';
 import ContactForm from '../components/ContactForm.jsx';
 import { siteInfo } from '../data/services.js';
 import { LocationIcon, PhoneIcon } from '../data/icons.jsx';
+import MapEmbed from '../components/MapEmbed.jsx';
 
 export default function Contact() {
   return (
@@ -40,7 +41,7 @@ export default function Contact() {
               </div>
               <div className="map-card" style={{ marginTop: 26 }}>
                 <div className="map-placeholder">
-                  <LocationIcon />
+                  <MapEmbed />
                 </div>
               </div>
             </Reveal>

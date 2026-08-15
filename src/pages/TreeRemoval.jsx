@@ -7,6 +7,7 @@ import { siteInfo } from '../data/services.js';
 import {
   CheckIcon, WhatsappIcon, ShieldIcon, LocationIcon, BoltIcon, HouseShieldIcon,
 } from '../data/icons.jsx';
+import MapEmbed from '../components/MapEmbed.jsx';
 
 const removalFaqs = [
   { q: 'How much does tree removal cost in Puchong?', a: 'Cost depends on the size, condition and location of the tree, along with access to the site. We assess each property before providing a clear, itemised quote.' },
@@ -39,7 +40,7 @@ export default function TreeRemoval() {
         <div className="container split">
           <Reveal className="img-frame">
             <img
-              src="https://placehold.co/800x680/1F5D42/F7F8F4?text=Tree+Removal+In+Progress"
+              src="/src/asset/01.jpeg"
               alt="Arborist performing controlled tree removal on a Puchong property"
               loading="lazy"
               width="800"
@@ -124,7 +125,7 @@ export default function TreeRemoval() {
           </Reveal>
           <Reveal className="img-frame">
             <img
-              src="https://placehold.co/800x680/5F8F62/F7F8F4?text=Safety+Equipment"
+              src="/src/asset/06.jpeg"
               alt="Tree removal crew using safety equipment in Puchong"
               loading="lazy"
               width="800"
@@ -188,7 +189,7 @@ export default function TreeRemoval() {
           </Reveal>
           <Reveal className="map-card">
             <div className="map-placeholder">
-              <LocationIcon />
+              <MapEmbed />
             </div>
             <div className="map-address">
               <LocationIcon />

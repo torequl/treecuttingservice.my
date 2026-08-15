@@ -4,8 +4,10 @@ import { CheckIcon } from '../data/icons.jsx';
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    const formData = new FormData(e.target);
+    console.log('Form Data:', Object.fromEntries(formData.entries()));
     setSubmitted(true);
     e.target.reset();
   };
