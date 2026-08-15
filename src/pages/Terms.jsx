@@ -14,7 +14,7 @@ export default function Terms() {
         <div className="container">
           <div className="breadcrumbs"><Link to="/">Home</Link> / Terms &amp; Conditions</div>
           <h1>Terms &amp; Conditions</h1>
-          <p className="lead">Last updated: [Insert Date]</p>
+          <p className="lead">Last updated: 16 October 2023</p>
         </div>
       </section>
 

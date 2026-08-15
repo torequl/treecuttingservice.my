@@ -8,6 +8,8 @@ import {
   CheckIcon, WhatsappIcon, ShieldIcon, LocationIcon, HouseShieldIcon, PeopleIcon,
 } from '../data/icons.jsx';
 import MapEmbed from '../components/MapEmbed.jsx';
+import landscapingImage from '../asset/13.jpeg';
+import benefitImage from '../asset/12.jpeg';
 
 const landscapingFaqs = [
   { q: 'What does your landscaping service include?', a: 'Our landscaping service covers garden design, lawn care, planting, mulching, edging and general tidy-ups to make your outdoor space more attractive and usable.' },
@@ -40,7 +42,7 @@ export default function Landscaping() {
         <div className="container split">
           <Reveal className="img-frame">
             <img
-              src="/src/asset/12.jpeg"
+              src={landscapingImage}
               alt="Landscaping crew shaping a garden bed on a Puchong property"
               loading="lazy"
               width="800"
@@ -125,7 +127,7 @@ export default function Landscaping() {
           </Reveal>
           <Reveal className="img-frame">
             <img
-              src="/src/asset/13.jpeg"
+              src={landscapingImage}
               alt="Neatly finished landscaped garden in Puchong"
               loading="lazy"
               width="800"

@@ -14,7 +14,7 @@ export default function Privacy() {
         <div className="container">
           <div className="breadcrumbs"><Link to="/">Home</Link> / Privacy Policy</div>
           <h1>Privacy Policy</h1>
-          <p className="lead">Last updated: [Insert Date]</p>
+          <p className="lead">Last updated: 16 October 2023</p>
         </div>
       </section>
 

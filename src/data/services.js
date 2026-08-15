@@ -1,8 +1,15 @@
+import treeRemovalImage from '../asset/06.jpeg';
+import treeTrimmingImage from '../asset/01.jpeg';
+import landClearingImage from '../asset/05.jpeg';
+import landscapingImage from '../asset/13.jpeg';
+import treeRootsRemovalImage from '../asset/11.jpeg';
+import emergencyTreeCareImage from '../asset/10.jpeg';
+
 export const services = [
   {
     id: 'tree-removal',
     title: 'Tree Removal',
-    image: '/src/asset/06.jpeg',
+    image: treeRemovalImage,
     imageAlt: 'Arborist safely removing a large tree in Puchong',
     description: 'Safe and controlled tree removal for dead, damaged, dangerous or unwanted trees while protecting your property and surrounding areas.',
     link: '/tree-removal',
@@ -11,7 +18,7 @@ export const services = [
   {
     id: 'tree-trimming',
     title: 'Tree Trimming',
-    image: '/src/asset/01.jpeg',
+    image: treeTrimmingImage,
     imageAlt: 'Tree care worker trimming overgrown branches',
     description: 'Professional tree trimming to remove overgrown, damaged and hazardous branches while helping maintain healthy and attractive trees.',
     link: '/services#tree-trimming',
@@ -20,7 +27,7 @@ export const services = [
   {
     id: 'land-clearing',
     title: 'Land Clearing',
-    image: '/src/asset/05.jpeg',
+    image: landClearingImage,
     imageAlt: 'Cleared land ready for construction in Puchong',
     description: 'Clear unwanted trees, vegetation, branches and overgrowth to prepare your land for construction, development or landscaping.',
     link: '/services#land-clearing',
@@ -29,7 +36,7 @@ export const services = [
   {
     id: 'landscaping',
     title: 'Landscaping',
-    image: '/src/asset/13.jpeg',
+    image: landscapingImage,
     imageAlt: 'Neatly landscaped garden and outdoor space',
     description: 'Improve the appearance and usability of your outdoor space with practical and attractive landscaping solutions.',
     link: '/landscaping',
@@ -38,7 +45,7 @@ export const services = [
   {
     id: 'tree-roots-removal',
     title: 'Tree Roots Removal',
-    image: '/src/asset/11.jpeg',
+    image: treeRootsRemovalImage,
     imageAlt: 'Removal of tree roots affecting a driveway',
     description: 'Remove problematic tree roots that may affect walkways, driveways, drainage systems or other parts of your property.',
     link: '/services#tree-roots-removal',
@@ -47,7 +54,7 @@ export const services = [
   {
     id: 'emergency-tree-care',
     title: 'Emergency Tree Care',
-    image: '/src/asset/10.jpeg',
+    image: emergencyTreeCareImage,
     imageAlt: 'Emergency crew clearing a fallen tree after a storm',
     description: 'Fast assistance for fallen, damaged or hazardous trees following storms, strong winds or unexpected incidents.',
     link: '/services#emergency-tree-care',

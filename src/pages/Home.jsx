@@ -11,6 +11,8 @@ import {
   LocationIcon, ClockIcon, HouseShieldIcon, StarIcon, PhoneIcon,
 } from '../data/icons.jsx';
 import MapEmbed from '../components/MapEmbed.jsx';
+import heroImage from '../asset/08.jpeg';
+import aboutImage from '../asset/17.jpeg';
 
 export default function Home() {
   return (
@@ -44,7 +46,7 @@ export default function Home() {
           <div className="hero-media">
             <div className="img-frame">
               <img
-                src="/src/asset/08.jpeg"
+                src={heroImage}
                 alt="Professional arborist safely cutting a large tree in Puchong"
                 width="900"
                 height="1125"
@@ -105,7 +107,7 @@ export default function Home() {
         <div className="container split">
           <Reveal className="img-frame">
             <img
-              src="/src/asset/17.jpeg"
+              src={aboutImage}
               alt="Tree care team working safely on a residential property in Puchong"
               loading="lazy"
               width="800"

@@ -8,6 +8,8 @@ import {
   CheckIcon, WhatsappIcon, ShieldIcon, LocationIcon, BoltIcon, HouseShieldIcon,
 } from '../data/icons.jsx';
 import MapEmbed from '../components/MapEmbed.jsx';
+import treeRemovalImage1 from '../asset/01.jpeg';
+import treeRemovalImage2 from '../asset/06.jpeg';
 
 const removalFaqs = [
   { q: 'How much does tree removal cost in Puchong?', a: 'Cost depends on the size, condition and location of the tree, along with access to the site. We assess each property before providing a clear, itemised quote.' },
@@ -40,7 +42,7 @@ export default function TreeRemoval() {
         <div className="container split">
           <Reveal className="img-frame">
             <img
-              src="/src/asset/01.jpeg"
+              src={treeRemovalImage1}
               alt="Arborist performing controlled tree removal on a Puchong property"
               loading="lazy"
               width="800"
@@ -125,7 +127,7 @@ export default function TreeRemoval() {
           </Reveal>
           <Reveal className="img-frame">
             <img
-              src="/src/asset/06.jpeg"
+              src={treeRemovalImage2}
               alt="Tree removal crew using safety equipment in Puchong"
               loading="lazy"
               width="800"

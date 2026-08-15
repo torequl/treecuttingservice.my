@@ -3,6 +3,7 @@ import Seo from '../components/Seo.jsx';
 import Reveal from '../components/Reveal.jsx';
 import { siteInfo } from '../data/services.js';
 import { CheckIcon, ShieldIcon, PeopleIcon, ToolboxIcon, LocationIcon, ClockIcon, HouseShieldIcon } from '../data/icons.jsx';
+import aboutImage from '../asset/10.jpeg';
 
 export default function About() {
   return (
@@ -25,7 +26,7 @@ export default function About() {
         <div className="container split">
           <Reveal className="img-frame">
             <img
-              src="/src/asset/10.jpeg"
+              src={aboutImage}
               alt="TreeCare Puchong team assessing a tree on a residential property"
               loading="lazy"
               width="800"
