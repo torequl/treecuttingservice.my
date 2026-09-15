@@ -6,8 +6,8 @@ export default function Terms() {
   return (
     <>
       <Seo
-        title="Terms & Conditions | TreeCare Puchong"
-        description="Terms and Conditions for the use of the TreeCare Puchong website and services."
+        title="Terms & Conditions | TreeCare KL & Selangor"
+        description="Terms and Conditions for the use of the TreeCare website and services."
       />
 
       <section className="page-hero">
@@ -23,7 +23,7 @@ export default function Terms() {
           <p>These Terms &amp; Conditions govern your use of this website and any enquiry submitted to {siteInfo.name} ("we", "us", "our").</p>
 
           <h2>Use of This Website</h2>
-          <p>This website is provided to give general information about our tree cutting and property care services in Puchong and surrounding areas. Content is provided in good faith, but we do not guarantee it is complete, accurate or up to date at all times.</p>
+          <p>This website is provided to give general information about our tree cutting and property care services in KL &amp; Selangor and surrounding areas. Content is provided in good faith, but we do not guarantee it is complete, accurate or up to date at all times.</p>
 
           <h2>Quotes &amp; Services</h2>
           <p>Any quote provided is an estimate based on the information available at the time and may be subject to change following an on-site assessment. Actual services performed will be agreed with you before work begins.</p>

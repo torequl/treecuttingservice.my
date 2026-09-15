@@ -1,0 +1,8 @@
+{
+  "name": "TreeCare Puchong",
+  "description": "Professional tree cutting, tree removal, trimming, land clearing, landscaping, and emergency tree care services in KL & Selangor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

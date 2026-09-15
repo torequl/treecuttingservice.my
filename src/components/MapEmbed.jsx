@@ -1,5 +1,3 @@
-import { siteInfo } from '../data/services.js';
-
 export default function MapEmbed() {
     return (
         <div>

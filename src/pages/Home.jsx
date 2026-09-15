@@ -3,7 +3,6 @@ import Seo from '../components/Seo.jsx';
 import Reveal from '../components/Reveal.jsx';
 import ServiceCard from '../components/ServiceCard.jsx';
 import FaqItem from '../components/FaqItem.jsx';
-import ContactForm from '../components/ContactForm.jsx';
 import AreaCoverage from '../components/AreaCoverage.jsx';
 import { services, faqs, testimonials, siteInfo } from '../data/services.js';
 import {
@@ -18,17 +17,16 @@ export default function Home() {
   return (
     <>
       <Seo
-        title="Tree Cutting & Tree Removal Services in Puchong | TreeCare Puchong"
-        description="Professional tree cutting, tree removal, tree trimming, land clearing, landscaping, tree root removal and emergency tree care services in Puchong, Selangor. Call or WhatsApp today."
+        title="Tree Cutting & Tree Removal Services in KL & Selangor | TreeCare"
+        description="Professional tree cutting, tree removal, tree trimming, land clearing, landscaping, tree root removal and emergency tree care services in KL & Selangor. Call or WhatsApp today."
       />
 
       {/* HERO */}
       <section className="hero">
         <div className="container">
           <div className="hero-copy">
-            <span className="eyebrow">Professional Tree Care Services in Puchong</span>
-            <h1>Professional Tree Cutting &amp; Care Services in Puchong</h1>
-            <p className="lead">From tree removal and trimming to land clearing, landscaping and emergency tree care, we provide professional tree services for residential and commercial properties across Puchong and surrounding areas.</p>
+            <h1>Professional Tree Cutting &amp; Care Services in KL &amp; Selangor</h1>
+            <p className="lead">From tree removal and trimming to land clearing, landscaping and emergency tree care, we provide professional tree services for residential and commercial properties across KL &amp; Selangor and surrounding areas.</p>
             <div className="hero-ctas">
               <Link to="/contact" className="btn btn-primary">Get a Free Quote</Link>
               <a href={siteInfo.whatsappHref} className="btn btn-secondary" target="_blank" rel="noopener noreferrer">
@@ -47,7 +45,7 @@ export default function Home() {
             <div className="img-frame">
               <img
                 src={heroImage}
-                alt="Professional arborist safely cutting a large tree in Puchong"
+                alt="Professional arborist safely cutting a large tree in KL & Selangor"
                 width="900"
                 height="1125"
               />
@@ -56,7 +54,7 @@ export default function Home() {
               <span className="icon-badge"><LocationIcon /></span>
               <span>
                 <strong>Professional Tree Care</strong>
-                <span>Serving Puchong &amp; Surrounding Areas</span>
+                <span>Serving KL &amp; Selangor</span>
               </span>
             </div>
           </div>
@@ -89,7 +87,6 @@ export default function Home() {
       <section className="section" id="services">
         <div className="container">
           <Reveal className="section-head">
-            <span className="eyebrow">What We Do</span>
             <h2>Our Tree &amp; Property Services</h2>
             <p>Complete tree care and property maintenance solutions delivered with safety, care and professionalism.</p>
           </Reveal>
@@ -108,16 +105,15 @@ export default function Home() {
           <Reveal className="img-frame">
             <img
               src={aboutImage}
-              alt="Tree care team working safely on a residential property in Puchong"
+              alt="Tree care team working safely on a residential property in KL & Selangor"
               loading="lazy"
               width="800"
               height="680"
             />
           </Reveal>
           <Reveal>
-            <span className="eyebrow">About Our Tree Services</span>
             <h2>Professional Tree Care With Safety at the Core</h2>
-            <p>We provide professional tree cutting and property care services for homeowners and businesses in Puchong and surrounding areas. Whether you need a dangerous tree removed, overgrown branches trimmed, unwanted roots cleared or land prepared for a new project, our team is ready to help.</p>
+            <p>We provide professional tree cutting and property care services for homeowners and businesses in KL &amp; Selangor and surrounding areas. Whether you need a dangerous tree removed, overgrown branches trimmed, unwanted roots cleared or land prepared for a new project, our team is ready to help.</p>
             <ul className="check-list">
               <li><CheckIcon />Careful &amp; Safety-Focused Work</li>
               <li><CheckIcon />Residential &amp; Commercial Services</li>
@@ -132,7 +128,6 @@ export default function Home() {
       <section className="section" id="why-choose-us">
         <div className="container">
           <Reveal className="section-head">
-            <span className="eyebrow">Our Difference</span>
             <h2>Why Choose Our Tree Care Services?</h2>
           </Reveal>
           <div className="benefit-grid">
@@ -154,7 +149,7 @@ export default function Home() {
             <Reveal className="benefit-card">
               <span className="icon-badge"><LocationIcon /></span>
               <h3>Local Service</h3>
-              <p>Based in Puchong, we understand the needs of local homeowners and businesses.</p>
+              <p>Based in KL &amp; Selangor, we understand the needs of local homeowners and businesses.</p>
             </Reveal>
             <Reveal className="benefit-card">
               <span className="icon-badge"><ClockIcon /></span>
@@ -174,7 +169,6 @@ export default function Home() {
       <section className="section section-alt">
         <div className="container">
           <Reveal className="section-head">
-            <span className="eyebrow">How It Works</span>
             <h2>Simple, Professional &amp; Hassle-Free</h2>
           </Reveal>
           <div className="process-grid">
@@ -198,7 +192,6 @@ export default function Home() {
       <section className="section">
         <div className="container">
           <Reveal className="section-head">
-            <span className="eyebrow">Real Results</span>
             <h2>See the Difference Professional Tree Care Can Make</h2>
           </Reveal>
           <div className="ba-grid">
@@ -210,11 +203,11 @@ export default function Home() {
               <Reveal className="ba-card" key={item.title}>
                 <div className="ba-images">
                   <figure>
-                    <img src={item.before} alt={`Before ${item.alt} in Puchong`} loading="lazy" width="400" height="400" />
+                    <img src={item.before} alt={`Before ${item.alt} in KL & Selangor`} loading="lazy" width="400" height="400" />
                     <figcaption>Before</figcaption>
                   </figure>
                   <figure>
-                    <img src={item.after} alt={`After ${item.alt} in Puchong`} loading="lazy" width="400" height="400" />
+                    <img src={item.after} alt={`After ${item.alt} in KL & Selangor`} loading="lazy" width="400" height="400" />
                     <figcaption>After</figcaption>
                   </figure>
                 </div>
@@ -232,13 +225,12 @@ export default function Home() {
       <section className="section section-alt" id="service-area">
         <div className="container area-wrap">
           <Reveal>
-            <span className="eyebrow">Where We Work</span>
-            <h2>Tree Services in Puchong &amp; Surrounding Areas</h2>
-            <p className="muted">We provide tree cutting, tree removal, trimming, land clearing, landscaping, tree root removal and emergency tree care services in Puchong and nearby areas throughout Selangor.</p>
+            <h2>Tree Services in KL &amp; Selangor</h2>
+            <p className="muted">We provide tree cutting, tree removal, trimming, land clearing, landscaping, tree root removal and emergency tree care services across Kuala Lumpur and throughout Selangor.</p>
             <div className="area-chips">
-              <span className="area-chip primary"><LocationIcon />Puchong</span>
-              <span className="area-chip"><LocationIcon />Taman Bukit Kinara</span>
-              <span className="area-chip"><LocationIcon />Surrounding Selangor Areas</span>
+              <span className="area-chip primary"><LocationIcon />Kuala Lumpur</span>
+              <span className="area-chip"><LocationIcon />Selangor</span>
+              <span className="area-chip"><LocationIcon />Surrounding Klang Valley</span>
             </div>
             <Link to="/contact" className="btn btn-primary">Contact Us Today</Link>
           </Reveal>
@@ -262,7 +254,6 @@ export default function Home() {
       <section className="section">
         <div className="container">
           <Reveal className="section-head">
-            <span className="eyebrow">Customer Feedback</span>
             <h2>What Our Customers Say</h2>
           </Reveal>
           <div className="testimonial-grid">
@@ -290,7 +281,6 @@ export default function Home() {
       <section className="section section-alt" id="faq">
         <div className="container">
           <Reveal className="section-head">
-            <span className="eyebrow">Common Questions</span>
             <h2>Frequently Asked Questions</h2>
           </Reveal>
           <Reveal className="faq-list">
@@ -321,27 +311,43 @@ export default function Home() {
       <section className="section section-alt" id="contact">
         <div className="container">
           <Reveal className="section-head">
-            <span className="eyebrow">Get In Touch</span>
-            <h2>Get in Touch With Our Tree Care Team</h2>
+            <h2>Contact Our Tree Care Team</h2>
+            <p className="lead" style={{ maxWidth: 640, margin: '10px auto 0' }}>
+              Connect directly with our KL &amp; Selangor specialists via WhatsApp or phone for immediate consultations and fast quotes.
+            </p>
           </Reveal>
-          <div className="contact-wrap">
-            <Reveal className="contact-info-card">
-              <div className="contact-info-row">
-                <span className="icon-badge"><LocationIcon /></span>
-                <span><strong>Address</strong><p>{siteInfo.address}</p></span>
+          <div className="contact-cards-grid">
+            <Reveal className="contact-action-card highlight">
+              <div className="action-icon-circle whatsapp">
+                <WhatsappIcon />
               </div>
-              <div className="contact-info-row">
-                <span className="icon-badge"><PhoneIcon /></span>
-                <span><strong>Phone</strong><p>{siteInfo.phoneDisplay}</p></span>
-              </div>
-              <div className="contact-info-actions">
-                <a href={siteInfo.phoneHref} className="btn btn-secondary btn-block">Call Now</a>
-                <a href={siteInfo.whatsappHref} className="btn btn-primary btn-block" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
-              </div>
+              <h3>Chat on WhatsApp</h3>
+              <p>Send photos of your trees, overgrown branches, or landscape for quick advice and an instant estimate.</p>
+              <a href={siteInfo.whatsappHref} className="btn btn-primary btn-block" target="_blank" rel="noopener noreferrer">
+                <WhatsappIcon /> Message Us on WhatsApp
+              </a>
             </Reveal>
 
-            <Reveal>
-              <ContactForm />
+            <Reveal className="contact-action-card">
+              <div className="action-icon-circle phone">
+                <PhoneIcon />
+              </div>
+              <h3>Call Us Directly</h3>
+              <p>Speak to our tree service team now for immediate scheduling, urgent inquiries, or emergency tree care.</p>
+              <a href={siteInfo.phoneHref} className="btn btn-secondary btn-block">
+                <PhoneIcon /> Call {siteInfo.phoneDisplay}
+              </a>
+            </Reveal>
+
+            <Reveal className="contact-action-card">
+              <div className="action-icon-circle location">
+                <LocationIcon />
+              </div>
+              <h3>Visit / Service Hub</h3>
+              <p>{siteInfo.address}</p>
+              <Link to="/services" className="btn btn-ghost btn-block">
+                Explore Services &rarr;
+              </Link>
             </Reveal>
           </div>
         </div>

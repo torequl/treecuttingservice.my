@@ -6,8 +6,8 @@ export default function Privacy() {
   return (
     <>
       <Seo
-        title="Privacy Policy | TreeCare Puchong"
-        description="Privacy Policy for TreeCare Puchong, describing how we collect and use information submitted through this website."
+        title="Privacy Policy | TreeCare KL & Selangor"
+        description="Privacy Policy for TreeCare, describing how we collect and use information submitted through this website."
       />
 
       <section className="page-hero">
@@ -23,7 +23,7 @@ export default function Privacy() {
           <p>This Privacy Policy explains how {siteInfo.name} ("we", "us", "our") collects, uses and protects information submitted through this website.</p>
 
           <h2>Information We Collect</h2>
-          <p>When you contact us through the contact form, phone or WhatsApp, we may collect information such as your name, phone number, email address, property location and details of the service you are enquiring about.</p>
+          <p>When you contact us through phone or WhatsApp, we may collect information such as your name, phone number, email address, property location and details of the service you are enquiring about.</p>
 
           <h2>How We Use Your Information</h2>
           <p>We use the information you provide only to respond to your enquiry, prepare a quote, and communicate with you about the tree or property services you have requested.</p>

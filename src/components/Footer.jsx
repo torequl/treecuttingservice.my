@@ -12,7 +12,7 @@ export default function Footer() {
               <span className="brand-mark"><TreeIcon /></span>
               {siteInfo.name}
             </span>
-            <p>Professional tree cutting and property care services in Puchong, Selangor.</p>
+            <p>Professional tree cutting and property care services in KL & Selangor.</p>
           </div>
 
           <div className="footer-col">
@@ -30,11 +30,15 @@ export default function Footer() {
           <div className="footer-col">
             <h4>Services</h4>
             <ul>
+              <li><Link to="/tree-cutting">Tree Cutting</Link></li>
               <li><Link to="/tree-removal">Tree Removal</Link></li>
-              <li><Link to="/services#tree-trimming">Tree Trimming</Link></li>
-              <li><Link to="/services#land-clearing">Land Clearing</Link></li>
+              <li><Link to="/stump-grinding">Stump Grinding</Link></li>
+              <li><Link to="/grass-cutting">Grass Cutting</Link></li>
+              <li><Link to="/tree-planting">Tree Planting</Link></li>
               <li><Link to="/landscaping">Landscaping</Link></li>
+              <li><Link to="/services#tree-trimming">Tree Trimming</Link></li>
               <li><Link to="/services#tree-roots-removal">Tree Roots Removal</Link></li>
+              <li><Link to="/services#land-clearing">Land Clearing</Link></li>
               <li><Link to="/services#emergency-tree-care">Emergency Tree Care</Link></li>
             </ul>
           </div>

@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import Seo from '../components/Seo.jsx';
-import { siteInfo } from '../data/services.js';
 
 export default function NotFound() {
     return (
